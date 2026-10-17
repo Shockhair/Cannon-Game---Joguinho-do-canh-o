@@ -1,9 +1,33 @@
-.gradle/
+# Configurações locais do Android Studio
 .idea/
-**/build/
-local.properties
 *.iml
+local.properties
+
+# Arquivos gerados durante a compilação
+.gradle/
+**/build/
+.externalNativeBuild/
+.cxx/
+
+# Downloads e caches do Gradle na raiz do projeto
+/wrapper/dists/
+/caches/
+/daemon/
+/native/
+/notifications/
+/jdks/
+/.tmp/
+
+# Aplicativos compilados
+*.apk
+*.aab
+
+# Chaves de assinatura
 *.jks
 *.keystore
-.DS_Store
+
+# Capturas, logs e arquivos do sistema
 captures/
+*.log
+.DS_Store
+Thumbs.db
