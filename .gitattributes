@@ -1,2 +1,24 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# Detecta arquivos de texto e padroniza as quebras de linha
+* text=auto eol=lf
+
+# Script do Gradle para Linux e macOS
+gradlew text eol=lf
+
+# Scripts do Windows
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Imagens
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+
+# Sons do jogo
+*.wav binary
+*.mp3 binary
+*.ogg binary
+
+# Bibliotecas Java, incluindo o Gradle Wrapper
+*.jar binary
