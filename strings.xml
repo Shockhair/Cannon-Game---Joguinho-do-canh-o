@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name" translatable="false">Cannon Game</string>
+    <string name="start" translatable="false">Jogar</string>
+    <string name="restart" translatable="false">Jogar novamente</string>
+    <string name="exit">Sair</string>
+    <string name="help">Toque ou arraste para mirar e disparar. Só há um projétil por vez.
+
+Acerte os 9 alvos antes que o tempo termine.
+Você começa com 10 s. Cada alvo vale +3 s.
+O bloqueador rebate o tiro e desconta 2 s.
+
+Extra: acertos seguidos aumentam o multiplicador até 5×. Errar ou acertar o bloqueador quebra a sequência.</string>
+    <string name="win">Você venceu!</string>
+    <string name="lose">Tempo esgotado</string>
+    <string name="results">Pontos: %1$d • Recorde: %2$d
+Alvos: %3$d/9 • Disparos: %4$d
+Precisão: %5$.0f%%
+Tempo jogado: %6$.1f s</string>
+    <string name="hud">Tempo: %1$.1f s    Alvos: %2$d/9    Pontos: %3$d    ×%4$d</string>
+    <string name="hint">Toque para disparar • Alvo +3 s • Bloqueador −2 s</string>
+</resources>
